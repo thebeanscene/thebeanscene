@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <style>
+        body {
+            font-family: 'Bookman Oldstyle', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            position: relative;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            position: absolute;
+            left: 20px;
+        }
+        header a:hover {
+            background-color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .product {
+            width: 48%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            animation: none; /* No initial animation */
+        }
+
+        /* Animation on hover */
+        .product img:hover {
+            animation: scaleImage 0.5s ease-in-out, fadeIn 0.5s ease-in-out;
+        }
+
+        /* Scale animation */
+        @keyframes scaleImage {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.05);
+            }
+        }
+
+        /* Fade in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.9;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/FINALWEB.html">></a>
+        <span>LaKanlaon TechHub</span>
+    </header>
+
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/cartridge.html">
+                <img src="cartridge.jpg" alt="Cartridge">
+            </a>
+        </div>
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/charger.html">
+                <img src="charger.jpg" alt="Charger">
+            </a>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/headphone.html">
+                <img src="headphone.jpg" alt="Headphone">
+            </a>
+        </div>
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/ink.html">
+                <img src="ink.jpg" alt="Ink">
+            </a>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/keyb1.html">
+                <img src="keyb1.jpg" alt="Keyboard 1">
+            </a>
+        </div>
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/keyb2.html">
+                <img src="keyb2.jpg" alt="Keyboard 2">
+            </a>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/laptopbag.html">
+                <img src="laptopbag.jpg" alt="Laptop Bag">
+            </a>
+        </div>
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/monitor.html">
+                <img src="monitor.jpg" alt="Monitor">
+            </a>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/mouse.html">
+                <img src="mouse.jpg" alt="Mouse">
+            </a>
+        </div>
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/mousepad.html">
+                <img src="mousepad.jpg" alt="Mousepad">
+            </a>
+        </div>
+
+        <!-- Row 6 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/printer.html">
+                <img src="printer.jpg" alt="Printer">
+            </a>
+        </div>
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/rj45.html">
+              <img src="rj45.jpg" alt="RJ45 Cable">
+            </a>
+        </div>
+
+        <!-- Row 7 -->
+        <div class="product">
+            <a href="http://127.0.0.1:29857/main/0/storage/emulated/0/0website/speaker.html">
+                <img src="speaker.jpg" alt="Speaker">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        Technology is best when it brings people together
+    </footer>
+
+</body>
+</html>
+
